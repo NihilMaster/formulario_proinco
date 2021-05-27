@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/logico.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Proinco</title>
+</head>
+<body style="background-color: #e6ebf0;">
+    <div style="padding: 20px;">
+        <div class="card" style="padding:10px; margin-bottom: 10px;">
+            <img src="img/logo.png" alt="Proinco" width="500">
+        </div>
+        <div class="card" style="padding: 10px;">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Líder o Lidereza</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Persona encargada del encuentro.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Fecha del encuentro</label>
+                    <input type="date" id="start" name="trip-start" value="2021-05-28" min="2021-01-01" max="2021-05-28">
+                <div id="emailHelp" class="form-text">Fecha en la que se realizó la reunión registrada.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Subir contenido audiovisual</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                <div id="emailHelp" class="form-text">Ingrese tanto imágenes como videos, todo al mismo tiempo.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Comentario</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Escriba alguna observacion (opcional).</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
